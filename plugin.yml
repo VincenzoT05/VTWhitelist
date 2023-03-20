@@ -1,0 +1,8 @@
+name: VTW
+version: 1.0
+main: it.vincet.Main
+api-version: 1.19
+author: [ VincenzoT ]
+description: "a bungeecord whitelist plugin"
+commands:
+  whitelist:

@@ -1,0 +1,43 @@
+# VincenzoTWhitelist Configuration
+
+#---------------------------------------------------------------------------------------#
+# ATTENTION! To change these options from the config the BungeeCord must be STOPPED!
+# It is strongly recommended to edit with ingame commands rather than from the config!
+#---------------------------------------------------------------------------------------#
+
+#Plugin permissions:
+# whitelistbungee.admin             (For all whitelist plugin commands)
+# whitelistbungee.joinmessages      (It enables chat messages when a non-whitelisted player tries to join the server, useful for admins)
+
+#Plugins commands:
+# /whitelist add        (Adds a player to the whitelist)
+# /whitelist remove     (Removes a player from the whitelist)
+# /whitelist on         (To enable the whitelist)
+# /whitelist off        (To disable the whitelist)
+# /whitelist list       (Lists players in the whitelist)
+
+
+#Enable or disable the whitelist
+enabled: true
+
+#Message shown to players when they're trying to connect to the server and they're not in whitelist.
+kick_message: "&cYou are not in whitelist!"
+
+
+#Translations
+whitelist-enabled: "&bWhitelist is now enabled."
+whitelist-disabled: "&cWhitelist is now disabled."
+
+added-to-whitelist: "&b%player% has been added to the whitelist."
+removed-from-whitelist: "&b%player% has been removed from the whitelist."
+
+already-whitelisted: "&c%player% is already whitelisted!"
+already-not-in-whitelist: "&c%player% is already not in the whitelist!"
+
+permission-denied: "&cYou do not have permission to use this command."
+tryed-to-join: "&c%player% tryed to join but is not in whitelist."
+
+
+
+#DON'T CHANGE! This is used by the plugin as storage for whitelisted players!
+#whitelist: []
